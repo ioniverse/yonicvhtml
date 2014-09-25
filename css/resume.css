@@ -1,0 +1,21 @@
+.section-right {display: block}
+
+.section-left {}
+
+.section-center {}
+
+.article {}
+
+.article-left {}
+
+.article-right {}
+
+#maphoto {height: 200px ; width: 200px; border-radius: 10px; box-shadow: 1px 1px 12px #555; float: left;}
+
+#presentation {display: inline-block}
+
+#wrapper{width: 900px ;margin: auto;}
+
+
+
+.right { float: right;}
