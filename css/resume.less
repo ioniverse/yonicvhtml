@@ -1,0 +1,43 @@
+@color: #88B;
+@color-hover: darken(@color,20%);
+h4{background: @color }
+h4:hover {background: @color-hover }
+
+
+
+
+.taillephoto {
+position:absolute; top: 5px; left: 5px;
+height: 200px ; width: 200px;  float: left;
+}
+
+#titre {
+position:absolute; top: 5px; left: 400px; text-align: center;
+
+}
+
+header {margin-bottom:300px}
+.transition(@duree)
+{
+-webkit-transition: border-radius @duree ease;
+-moz-transition: border-radius @duree ease;
+-ms-transition: border-radius @duree ease;
+-o-transition: border-radius @duree ease;
+transition: border-radius @duree ease;
+}
+
+#maphoto
+{
+.taillephoto;
+.transition(10s)
+}
+
+#maphoto:hover
+{
+.taillephoto;
+border-radius: 20px; box-shadow: 1px  1px 12px #555;
+}
+
+@import "partial.less";
+
+
